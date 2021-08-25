@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: url('https://images.unsplash.com/photo-1519972064555-542444e71b54?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFwZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  font-family: 'Noto Sans JP';
+}
+.container{
+  width: 45%;
+  height: 40%;
+  background-image: url('https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 100, 0.5);
+}
+.jokes{
+  font-size: 2rem;
+  text-align: center;
+}
+h3{
+  color: #A2B29F;
+}
+
+button{
+  background-color: #F7D59C;
+  border: none;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.next:active{
+  transform: scale(1.2);
+}
